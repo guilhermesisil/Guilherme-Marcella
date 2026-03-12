@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guilherme & Marcella</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/components.css">
+
+</head>
+
+<body>
+
+<header class="hero">
+<div class="overlay">
+<h1>Guilherme & Marcella</h1>
+<p class="date">09 de Maio de 2026 • 16h30</p>
+<a href="#rsvp" class="btn-primary">Confirmar Presença</a>
+<button id="musicButton">🎵 Música do casal</button>
+</div>
+</header>
+
+<section class="countdown">
+<div class="count-box"><span id="days"></span><p>Dias</p></div>
+<div class="count-box"><span id="hours"></span><p>Horas</p></div>
+<div class="count-box"><span id="minutes"></span><p>Min</p></div>
+<div class="count-box"><span id="seconds"></span><p>Seg</p></div>
+</section>
+
+<section class="historia">
+<h2>Nossa História</h2>
+<p>
+Toda grande história começa de forma simples.
+A nossa começou com dois caminhos que se cruzaram no momento certo.
+
+Entre conversas, risadas e sonhos compartilhados,
+descobrimos que o amor cresce nos pequenos detalhes do dia a dia.
+
+Hoje celebramos não apenas um casamento,
+mas a união de duas histórias que decidiram caminhar juntas para sempre.
+
+Estamos muito felizes em compartilhar esse momento tão especial com você.
+</p>
+</section>
+
+<section class="galeria">
+<img src="img/foto1.jpg" loading="lazy" onclick="openLightbox(this)">
+<img src="img/foto2.jpg" loading="lazy" onclick="openLightbox(this)">
+<img src="img/foto3.jpg" loading="lazy" onclick="openLightbox(this)">
+<img src="img/foto4.jpg" loading="lazy" onclick="openLightbox(this)">
+<img src="img/foto5.jpg" loading="lazy" onclick="openLightbox(this)">
+<img src="img/foto6.jpg" loading="lazy" onclick="openLightbox(this)">
+</section>
+
+<section class="local">
+<h2>Local da cerimônia</h2>
+<p>Casa A Eventos • Passos MG</p>
+<div class="map-buttons">
+<a target="_blank" href="https://maps.google.com">Abrir no Google Maps</a>
+<a target="_blank" href="https://waze.com">Abrir no Waze</a>
+</div>
+</section>
+
+<section id="rsvp">
+<h2>Confirme sua presença</h2>
+<a class="btn-whatsapp"
+href="https://wa.me/5500000000000?text=Confirmo%20presença%20no%20casamento%20de%20Guilherme%20e%20Marcella">
+Confirmar pelo WhatsApp
+</a>
+</section>
+
+<footer>
+<p>Com amor,</p>
+<h3>Guilherme & Marcella</h3>
+</footer>
+
+<script src="js/countdown.js"></script>
+<script src="js/gallery.js"></script>
+<script src="js/music.js"></script>
+
+</body>
+</html>
